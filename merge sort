@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+
+[16,21,11] [8,12,22] ikiye ayırıyoruz.
+
+[16] [21,11] [8,12][22] sayıları yakınlık durumuna göre ayırdık
+
+[11,16,21] [8,12,22] ayırdıgımız grupları birleştırdik.
+[8,11,12,16,21,22]sayıları küçükten büyüğe olacak şekilde sıraladık.
+o(logn)
